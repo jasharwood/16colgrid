@@ -21,7 +21,7 @@ Simply clone this repository and point your browser at the `index.html` file.
 </div>
 ```
 
-In the above demo I have set up a full-width grid for mobile devices (`col-16`), which snaps to a 4 col grid with a 6 col offset on slightly larger devices (`col-sm-4` `offset-sm-6`). If we did not apply the  `col-sm-4` class, our grid would remain 16 cols on any viewport size. However, as it stands, our grid on a viewport larger than `540px` (our sm breakpoint) will become two columns. This view will remain true unless we add a `col-` class that activates at a new, larger, breakpoint (e.g. `col-md-`).  
+In the above example, I have set up a full-width grid for mobile devices (`col-16`), which snaps to a 4 column  grid with a 6 column offset on slightly larger devices (`col-sm-4` `offset-sm-6`). If we did not apply the  `col-sm-4` class, our grid would remain 16 cols on any viewport size. However, as it stands, our grid on a viewport larger than `540px` (our sm breakpoint) will become two columns. This view will remain true unless we add a `col-` class that activates at a new, larger, breakpoint (e.g. `col-md-`).  
 
 I find the mobile-first approach demonstrated above an excellent way to work. Broadly speaking, my workflow is as follows:
 
@@ -52,7 +52,7 @@ My solution is perhaps a little clunky. I simply re-define the grid, in its enti
 
 ## Your Task
 
-This grid is only part complete,and there are still a few questions that need to be addressed:
+This grid is only part finished, you taks us to convert it to a 12-col grid and finish off the grid. There are still a few questions that need to be addressed:
 
 - How can we convert this grid to `12-cols`?
 - How can we support further viewport sizes (e.g. medium, large and extra large)?
@@ -61,7 +61,7 @@ This grid is only part complete,and there are still a few questions that need to
 - Can columns be nested?
 - What further features should we add to make the grid as flexible as possible?
   - e.g. could we have `.wrapper-sm` ,`.wrapper-md` and `.wrapper-lg`  to give us flexibility on how our content can be constrained?
-- **Bonus Task:** How can we significantly reduce the amount of css using [sass](https://www.npmjs.com/package/sass)
+- **Bonus Task:** How can we significantly reduce the amount of css using [sass](https://www.npmjs.com/package/sass)?
 
 
 
