@@ -1,19 +1,19 @@
 {
   "name": "16-col-grid",
   "version": "1.0.0",
-  "description": "For example purposes, I have created a mobile-first responsive grid. It is large, 16 columns - a 12 column grid should work in most cases. My rational for choosing the large number of columns is so the grid will be substantially reduced if it is going to be used for any assessed work.",
+  "description": "This is a 16 column grid. It will be very flexible.",
   "main": "src/grid.css",
-  "author": "Joe Appleton",
-  "license": "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joeappleton18/16-col-grid.git"
+    "url": "git+https://github.com/jasharwood/16colgrid.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joeappleton18/16-col-grid/issues"
+    "url": "https://github.com/jasharwood/16colgrid/issues"
   },
-  "homepage": "https://github.com/joeappleton18/16-col-grid#readme"
+  "homepage": "https://github.com/jasharwood/16colgrid#readme"
 }
